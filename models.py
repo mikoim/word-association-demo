@@ -2,10 +2,20 @@ from pydantic import BaseModel
 
 
 class Word(BaseModel):
-    name: str
+    word: str
     cosine_similarity: float
-    images: list[str]
 
 
 class PredictResponse(BaseModel):
     words: list[Word]
+
+
+class DistanceResponse(BaseModel):
+    word_a: str
+    word_b: str
+    cosine_similarity: float
+
+
+class ImageResponse(BaseModel):
+    word: str
+    urls: list[str]
