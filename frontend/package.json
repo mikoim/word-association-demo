@@ -12,7 +12,7 @@
     "@mdi/font": "6.5.95",
     "axios": "^0.24.0",
     "core-js": "^3.20.3",
-    "moment": "^2.29.1",
+    "moment": "^2.29.2",
     "roboto-fontface": "*",
     "set-interval-async": "^2.0.3",
     "vue": "^2.6.11",
